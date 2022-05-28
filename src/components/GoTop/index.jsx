@@ -1,12 +1,8 @@
 import * as Styled from './styles';
 import { KeyboardArrowUp } from '@styled-icons/material-outlined/KeyboardArrowUp';
+import PropTypes from 'prop-types';
 
-export const GoTop = () => {
-  const handleClick = (e) => {
-    e.preventDefault();
-    window.scrollTo(0, 0);
-  };
-
+export const GoTop = ({ handleClick }) => {
   return (
     <Styled.Container
       href="#"
@@ -17,4 +13,8 @@ export const GoTop = () => {
       <KeyboardArrowUp />
     </Styled.Container>
   );
+};
+
+GoTop.propTypes = {
+  handleClick: PropTypes.func,
 };
