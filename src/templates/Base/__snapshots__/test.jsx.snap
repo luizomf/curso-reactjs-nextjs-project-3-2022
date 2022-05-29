@@ -921,3 +921,44 @@ exports[`<Base /> > should render 1`] = `
   </a>
 </div>
 `;
+
+exports[`this test is under the <Footer /> 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  text-align: center;
+}
+
+.c0 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.c2 {
+  font-size: 2.4rem;
+}
+
+<div>
+  <footer
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <p>
+          This is a test
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
