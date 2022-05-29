@@ -93,6 +93,17 @@ module.exports = {
 };
 ```
 
+babel.config.js
+
+```javascript
+module.exports = {
+  presets: [
+    '@babel/preset-env',
+    ['@babel/preset-react', { runtime: 'automatic' }],
+  ],
+};
+```
+
 ## Prop-types?
 
 If your are using proptypes, install it:
