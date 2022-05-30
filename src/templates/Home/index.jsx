@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { mapData } from '../../api/map-data';
 import { mockBase } from '../Base/mock';
 import { Base } from '../Base';
-import { PageNotFound } from '../PageNotFoud';
+import { PageNotFound } from '../PageNotFound';
 import { Loading } from '../Loading';
 
 function Home() {
