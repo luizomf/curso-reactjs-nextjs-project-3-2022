@@ -1,4 +1,3 @@
-import data from './dados.json';
 import { mapMenu } from './map-menu';
 import { mapSections } from './map-sections';
 
@@ -24,6 +23,3 @@ export const mapData = (pagesData = [{}]) => {
     };
   });
 };
-
-import { inspect } from 'util';
-console.log(inspect(mapData(data.data), null, null, true));
