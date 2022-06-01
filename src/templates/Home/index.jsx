@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 
 import { mapData } from '../../api/map-data';
 
-import { GridTwoColum } from '../../components/GridTwoColumns';
+import { GridTwoColumns } from '../../components/GridTwoColumns';
 import { GridContent } from '../../components/GridContent';
 import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
@@ -11,6 +11,8 @@ import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
 import { Loading } from '../Loading';
 import { useLocation } from 'react-router-dom';
+
+import config from '../../config';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -44,6 +46,20 @@ function Home() {
     };
   }, [location]);
 
+  useEffect(() => {
+    if (data === undefined) {
+      document.title = `Página não encontrada | ${config.siteName}`;
+    }
+
+    if (data && !data.slug) {
+      document.title = `Carregando... | ${config.siteName}`;
+    }
+
+    if (data && data.title) {
+      document.title = `${data.title} | ${config.siteName}`;
+    }
+  }, [data]);
+
   if (data === undefined) {
     return <PageNotFound />;
   }
@@ -66,7 +82,7 @@ function Home() {
         const key = `${slug}-${index}`;
 
         if (component === 'section.section-two-columns') {
-          return <GridTwoColum key={key} {...section} />;
+          return <GridTwoColumns key={key} {...section} />;
         }
 
         if (component === 'section.section-content') {
