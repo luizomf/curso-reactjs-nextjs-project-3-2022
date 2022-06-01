@@ -67,7 +67,11 @@ describe('map-sections', () => {
         section_id: 'contact',
       },
       image: {
-        url: 'a.svg',
+        data: {
+          attributes: {
+            url: 'a.svg',
+          },
+        },
       },
     });
     expect(data.background).toBe(true);
