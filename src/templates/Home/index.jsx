@@ -10,16 +10,21 @@ import { GridImage } from '../../components/GridImage';
 import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
 import { Loading } from '../Loading';
+import { useLocation } from 'react-router-dom';
 
 function Home() {
   const [data, setData] = useState([]);
   const isMounted = useRef(true);
+  const location = useLocation();
 
   useEffect(() => {
     const load = async () => {
+      const pathName = location.pathname.replace(/[^a-z0-9-_]/gi, '');
+      const slug = pathName ? pathName : 'landing-page';
+
       try {
         const data = await fetch(
-          'http://localhost:1337/api/pages/?filters[slug]=landing-page&populate=deep',
+          `http://localhost:1337/api/pages/?filters[slug]=${slug}&populate=deep`,
         );
         const json = await data.json();
         const { attributes } = json.data[0];
@@ -37,7 +42,7 @@ function Home() {
     return () => {
       isMounted.current = false;
     };
-  }, []);
+  }, [location]);
 
   if (data === undefined) {
     return <PageNotFound />;
