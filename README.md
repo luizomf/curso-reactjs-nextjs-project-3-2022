@@ -257,3 +257,18 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 );
 ```
+
+# Show markdown as HTML
+
+```
+npm install react-markdown
+```
+
+```jsx
+import ReactMarkdown from 'react-markdown';
+import { TextComponent } from '../TextComponent';
+
+<TextComponent>
+  <ReactMarkdown>{html}</ReactMarkdown>,
+</TextComponent>
+```

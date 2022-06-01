@@ -16,6 +16,8 @@
     "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-markdown": "^8.0.3",
+    "remark-gfm": "^3.0.1",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {

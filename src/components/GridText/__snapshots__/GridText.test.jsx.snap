@@ -97,7 +97,9 @@ exports[`<GridText /> > should render with background 1`] = `
         <div
           class="c5 c6"
         >
-          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+          <p>
+            Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+          </p>
         </div>
         <div
           class="c7"
@@ -113,7 +115,9 @@ exports[`<GridText /> > should render with background 1`] = `
             <div
               class="c5 c6"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              </p>
             </div>
           </div>
           <div
@@ -127,7 +131,9 @@ exports[`<GridText /> > should render with background 1`] = `
             <div
               class="c5 c6"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              </p>
             </div>
           </div>
           <div
@@ -141,7 +147,9 @@ exports[`<GridText /> > should render with background 1`] = `
             <div
               class="c5 c6"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              </p>
             </div>
           </div>
         </div>
@@ -248,7 +256,9 @@ exports[`<GridText /> > should render without background 1`] = `
         <div
           class="c5 c6"
         >
-          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+          <p>
+            Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+          </p>
         </div>
         <div
           class="c7"
@@ -264,7 +274,9 @@ exports[`<GridText /> > should render without background 1`] = `
             <div
               class="c5 c6"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              </p>
             </div>
           </div>
           <div
@@ -278,7 +290,9 @@ exports[`<GridText /> > should render without background 1`] = `
             <div
               class="c5 c6"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              </p>
             </div>
           </div>
           <div
@@ -292,7 +306,9 @@ exports[`<GridText /> > should render without background 1`] = `
             <div
               class="c5 c6"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+              </p>
             </div>
           </div>
         </div>
