@@ -71,9 +71,6 @@ exports[`<Menu /> > should not render links 1`] = `
 }
 
 .c8 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: inherit;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -82,10 +79,13 @@ exports[`<Menu /> > should not render links 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 .c8 > img {
-  max-height: 3rem;
+  height: 3rem;
 }
 
 .c9 {
@@ -295,9 +295,6 @@ exports[`<Menu /> > should render Logo and Main Menu Nav 1`] = `
 }
 
 .c8 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: inherit;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -306,10 +303,13 @@ exports[`<Menu /> > should render Logo and Main Menu Nav 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 .c8 > img {
-  max-height: 3rem;
+  height: 3rem;
 }
 
 .c9 {
