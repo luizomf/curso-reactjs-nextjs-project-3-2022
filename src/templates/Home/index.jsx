@@ -26,7 +26,7 @@ function Home() {
 
       try {
         const data = await fetch(
-          `http://localhost:1337/api/pages/?filters[slug]=${slug}&populate=deep`,
+          `https://strapi-v4-test.herokuapp.com/api/pages/?filters[slug]=${slug}&populate=deep`,
         );
         const json = await data.json();
         const { attributes } = json.data[0];
